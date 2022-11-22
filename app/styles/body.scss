@@ -1,0 +1,54 @@
+// .main-info {
+//     display: flex;
+//     flex-wrap: nowrap;
+//     justify-content: space-between;
+
+// }
+
+// Начало левой части 
+.body-content__nav--box {
+    width: 400px;
+    padding: 9px 12px 9px 0;
+    border-radius: 12px;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color-theme-dark);
+
+    .container {
+        flex: 1 1 auto;
+    }
+
+    &__nav,
+    li {
+        display: block;
+        line-height: 1.75;
+        padding: 2px 6px;
+
+
+    }
+}
+
+.body-content__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.Paragraph {
+    width: 900px;
+}
+
+.body-content__cat {
+    width: 500px;
+}
+
+// Начало правой части 
+// .body-left-content {
+//     display: grid;
+
+//     .right-picture {
+//         width: 200px;
+//     }
+// }

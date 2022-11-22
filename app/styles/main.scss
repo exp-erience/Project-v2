@@ -1,0 +1,56 @@
+@forward 'header';
+
+@forward 'body';
+
+@forward 'footer';
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap);
+
+
+
+:root {
+    --background-image: url(https://phonoteka.org/uploads/posts/2021-06/1624380202_59-phonoteka_org-p-oboi-na-rabochii-stol-skairim-krasivo-59.jpg);
+    --text-color: #f0f8ff;
+    --background-color-theme-dark: #202020;
+    --background-color-theme-dark-footer: #000000;
+}
+
+:root[data-theme='dark'] {
+    --background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625680039_32-kartinkin-com-p-skairim-oboi-krasivie-37.jpg);
+    --background-color-theme-dark: #f1f1f1;
+    --text-color: #000000;
+    --background-color-theme-dark-footer: #4d4d4d;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-y: scroll;
+}
+
+summary,
+ol,
+h1,
+h3,
+p {
+    color: var(--text-color);
+}
+
+h1 {
+    text-decoration-line: overline;
+}
+
+p {
+    font-size: 24px;
+}
+
+summary {
+    font-size: 24px;
+
+}
+
+ol {
+    font-size: 20px;
+    text-decoration-style: unset;
+}

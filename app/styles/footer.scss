@@ -1,0 +1,21 @@
+.footer {
+    background-color: var(--background-color-theme-dark-footer);
+
+    .footer-row {
+        display: flex;
+        height: 65px;
+        justify-content: center;
+        align-items: center;
+
+        .footer-text {
+            font-size: 18px;
+            letter-spacing: 0.3px;
+
+            h4 {
+                color: white;
+                text-shadow: 1px 1px 2px rgb(107, 107, 107), 0 0 1em rgb(39, 39, 39), rgb(0, 0, 0) 0.2em rgb(71, 71, 71);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap);
+.header-top-menu {
+  background-image: var(--background-image);
+  padding: 50px 0;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.header-top-menu .header-title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.header-top-menu .header-title h2 {
+  font-size: 36px;
+  color: var(--text-color);
+  text-shadow: black 0 0 5px;
+}
+.header-top-menu .header-top-menu__header-logo {
+  cursor: pointer;
+  opacity: unset;
+  max-height: 150px;
+  max-width: 150px;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0px;
+  padding: 0px;
+}
+.header-top-menu .header-nav {
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+  font-size: 20px;
+  text-shadow: black 0 0 5px;
+}
+.header-top-menu .header-nav .border-text-menu h4 {
+  color: var(--text-color);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.toggle-theme {
+  height: 25px;
+  width: 25px;
+}
+
+.body-content__nav--box {
+  width: 400px;
+  padding: 9px 12px 9px 0;
+  border-radius: 12px;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color-theme-dark);
+}
+.body-content .container {
+  flex: 1 1 auto;
+}
+.body-content__nav,
+.body-content li {
+  display: block;
+  line-height: 1.75;
+  padding: 2px 6px;
+}
+
+.body-content__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.Paragraph {
+  width: 900px;
+}
+
+.body-content__cat {
+  width: 500px;
+}
+
+.footer {
+  background-color: var(--background-color-theme-dark-footer);
+}
+.footer .footer-row {
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-row .footer-text {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+.footer .footer-row .footer-text h4 {
+  color: white;
+  text-shadow: 1px 1px 2px rgb(107, 107, 107), 0 0 1em rgb(39, 39, 39), rgb(0, 0, 0) 0.2em rgb(71, 71, 71);
+}
+
+:root {
+  --background-image: url(https://phonoteka.org/uploads/posts/2021-06/1624380202_59-phonoteka_org-p-oboi-na-rabochii-stol-skairim-krasivo-59.jpg);
+  --text-color: #f0f8ff;
+  --background-color-theme-dark: #202020;
+  --background-color-theme-dark-footer: #000000;
+}
+
+:root[data-theme=dark] {
+  --background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625680039_32-kartinkin-com-p-skairim-oboi-krasivie-37.jpg);
+  --background-color-theme-dark: #f1f1f1;
+  --text-color: #000000;
+  --background-color-theme-dark-footer: #4d4d4d;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif;
+  overflow-y: scroll;
+}
+
+summary,
+ol,
+h1,
+h3,
+p {
+  color: var(--text-color);
+}
+
+h1 {
+  text-decoration-line: overline;
+}
+
+p {
+  font-size: 24px;
+}
+
+summary {
+  font-size: 24px;
+}
+
+ol {
+  font-size: 20px;
+  text-decoration-style: unset;
+}
+
+/*# sourceMappingURL=index.css.map */
